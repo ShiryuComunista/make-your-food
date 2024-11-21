@@ -1,27 +1,14 @@
-<script>
-import Header from '@/components/HeaderNavbar.vue'
-import Section1 from '@/components/Section1.vue'
-import HeaderSection from '@/components/HeaderSection.vue'
+<script lang="ts">
+import CustomSection from '@/components/CustomSection.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    Header,
-    Section1,
-    HeaderSection,
-  },
-  data() {
-    return {
-      name: 'Ainda não sei',
-    }
+    CustomSection,
   },
 }
 </script>
 
 <template>
-  <div>
-    <HeaderSection />
-    <Header />
-    <Section1 />
-  </div>
+  <CustomSection />
 </template>
